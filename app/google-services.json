@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "116935182351",
+    "firebase_url": "https://phenyokeakilecircuit-default-rtdb.firebaseio.com",
+    "project_id": "phenyokeakilecircuit",
+    "storage_bucket": "phenyokeakilecircuit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116935182351:android:4afb3f8c134e123e4bbb7a",
+        "android_client_info": {
+          "package_name": "com.example.circuit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116935182351-n65iuiu4t6l0mg78gj35cc58b2hlioil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPfcJhkOf9a6JbcQN44YzjDsQmpSEy5PU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116935182351-n65iuiu4t6l0mg78gj35cc58b2hlioil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
