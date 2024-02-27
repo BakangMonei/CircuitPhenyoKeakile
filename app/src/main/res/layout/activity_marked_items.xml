@@ -19,9 +19,10 @@
             android:layout_marginTop="40dp"
             android:paddingLeft="20dp"
             android:layout_marginBottom="10dp"
-            android:text="Purchased Items"
-            android:textColor="#cfbb81"
-            android:fontFamily="@font/nunitoregular"
+            android:text="Brought Items List"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:fontFamily="@font/interextrabold"
             android:textSize="20dp"
             />
 
@@ -29,7 +30,6 @@
             android:id="@+id/welcomeText2"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Below is a list of purchased suitcase items"
             android:textColor="#afb2bb"
             android:paddingLeft="20dp"
             android:fontFamily="@font/nunitoregular"
@@ -59,11 +59,12 @@
             android:id="@+id/welcomeText3"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
-            android:text="Purchased Items list"
-            android:textColor="#cfbb81"
+            android:text="Brought Item list"
+            android:textColor="#000000"
+            android:textAlignment="center"
             android:paddingLeft="20dp"
             android:layout_marginTop="20dp"
-            android:fontFamily="@font/nunitoregular"
+            android:fontFamily="@font/interextrabold"
             android:textSize="21dp"
             android:layout_below="@id/search"
             android:layout_gravity="center_horizontal"
@@ -109,7 +110,7 @@
             android:layout_alignParentBottom="true"
             app:menu="@menu/nav"
             app:itemIconTint="#fafafa"
-            android:background="#2b2b33"
+            android:background="#ff0000"
             app:itemTextColor="#fafafa"/>
 
     </RelativeLayout>

@@ -37,9 +37,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:text="Update Item"
-                    android:textColor="#cfbb81"
-                    android:fontFamily="@font/nunitoregular"
+                    android:text="Update Brought Items"
+                    android:textColor="#000000"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/interextrabold"
                     android:textSize="27dp"
                     />
 
@@ -58,8 +59,8 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="10dp"
                     android:textSize="18dp"
-                    android:fontFamily="@font/nunitoregular"
-                    android:textColor="#b5b5bd"
+                    android:fontFamily="@font/interextrabold"
+                    android:textColor="#000000"
                 android:text="Item Name"
                 />
 
@@ -81,8 +82,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Item Price"
                     android:textSize="18dp"
-                    android:fontFamily="@font/nunitoregular"
-                    android:textColor="#b5b5bd"
+                    android:fontFamily="@font/interextrabold"
+                    android:textColor="#000000"
                     />
 
                 <EditText
@@ -104,8 +105,8 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Item Location"
                     android:textSize="18dp"
-                    android:fontFamily="@font/nunitoregular"
-                    android:textColor="#b5b5bd"
+                    android:fontFamily="@font/interextrabold"
+                    android:textColor="#000000"
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -130,7 +131,7 @@
                         android:layout_weight="1"
                         android:backgroundTint="@color/float_transparent"
                         android:onClick="addlocation"
-                        app:tint="#cfbb81"
+                        app:tint="#ff0000"
                         android:src="@drawable/location"
                         />
                 </LinearLayout>
@@ -143,8 +144,8 @@
                 android:layout_marginBottom="10dp"
                 android:text="Added Date"
                 android:textSize="18dp"
-                android:fontFamily="@font/nunitoregular"
-                android:textColor="#b5b5bd"/>
+                android:fontFamily="@font/interextrabold"
+                android:textColor="#000000"/>
 
             <EditText
                 android:id="@+id/update_Date"
@@ -165,8 +166,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="10dp"
                 android:textSize="18dp"
-                android:fontFamily="@font/nunitoregular"
-                android:textColor="#b5b5bd"
+                android:fontFamily="@font/interextrabold"
+                android:textColor="#000000"
                 android:text="Item Description" />
 
 
@@ -195,10 +196,10 @@
                     android:layout_marginTop="20dp"
                     android:background="@drawable/buttonbg"
                     android:fontFamily="@font/quicksandsemibold"
-                    android:text="update"
-                    android:textColor="#FFFFFF"
+                    android:text="UPDATE"
+                    android:textColor="#000000"
                     android:textStyle="bold"
-                    app:backgroundTint="#cdba7e" />
+                    app:backgroundTint="#ff0000" />
             </LinearLayout>
 
 
@@ -211,7 +212,7 @@
         android:layout_alignParentBottom="true"
         app:menu="@menu/nav"
         app:itemIconTint="#fafafa"
-        android:background="#2b2b33"
+        android:background="#ff0000"
         app:itemTextColor="#fafafa"/>
 </RelativeLayout>
 

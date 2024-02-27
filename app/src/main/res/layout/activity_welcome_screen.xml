@@ -20,10 +20,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:fontFamily="@font/quicksandsemibold"
-            android:text="Suitcase"
+            android:fontFamily="@font/forumregular"
+            android:textColor="#000000"
+            android:text="Circu.it"
             android:layout_marginBottom="20dp"
-            android:textColor="#cdba7e"
             android:textSize="40sp" />
         <com.github.ybq.android.spinkit.SpinKitView
             android:id="@+id/spin_kit"
